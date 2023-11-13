@@ -6,7 +6,7 @@ export const Principal = () => {
     <section className="principal">
 
       <article className="hero-header">
-        <p className="hero-title">Mi experiencia</p>
+        <h2 className="hero-title">Mi experiencia</h2>
         <div className="hero-img2-box">
           <img className="hero-img2" src={portada2} alt="portada 2" />
         </div>
@@ -14,7 +14,7 @@ export const Principal = () => {
 
       <article className="skills-container">
         <div className="skills-half-left">
-          <p className="skills-half-title">Habilidades</p>
+          <h2 className="skills-half-title">Habilidades</h2>
           <ul className="skills-list">
             <li><span className="skills-circle" data-num="1"></span>Tours Virtuales 360</li>
             <li><span className="skills-circle" data-num="2"></span>Fotografía para inmobiliarias</li>
@@ -29,7 +29,7 @@ export const Principal = () => {
         </div>
 
         <div className="skills-half-right">
-          <p className="skills-half-title">Experiencia Laboral</p>
+          <h2 className="skills-half-title">Experiencia Laboral</h2>
           <ul className="works-list">
             {EXPERIENCIAS.map((li, index) => <li key={index}>{li}</li>)}
           </ul>

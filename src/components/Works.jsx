@@ -13,7 +13,7 @@ export const Works = ({ scrollRef }) => {
 
   return (
     <section className="work-section">
-      <h1 className="work-title">Trabajos</h1>
+      <h2 className="work-title">Trabajos</h2>
       <article className="work-container">
         {WORKS.map((work, workIndex) => (
           <div

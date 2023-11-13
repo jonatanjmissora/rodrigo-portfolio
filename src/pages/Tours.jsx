@@ -25,9 +25,9 @@ const Tours = ({ scrollRef }) => {
     <section className="tours-section">
       <article className="info-container">
         <div className="intro-container">
-          <h3 className="intro-container-title">
+          <h2 className="intro-container-title">
             ¿Qué es un Tour Virtual 360°?
-          </h3>
+          </h2>
           <p className="intro-container-data">
             Empezaremos explicando, de la forma más fácil, que es un tour
             virtual de 360 grados. Un tour virtual es una herramienta digital e
@@ -103,7 +103,7 @@ const CategoryObj = ({ scrollRef, categoryObj}) => {
   return (
     <article className="tour-category-container">
       <div className="tour-header" onClick={handleClick}>
-        <span className="tour-header-name">{categoryObj.name}</span>
+        <h3 className="tour-header-name">{categoryObj.name}</h3>
         <div className="tour-header-line"></div>
         <div className="tour-header-icon-box">
           {show ? <FaChevronUp /> : <FaChevronDown />}

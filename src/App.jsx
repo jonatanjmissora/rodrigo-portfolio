@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, useRef } from "react";
+import { Suspense, lazy, useRef } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Header } from "./components/Header";
 import { GoTop } from "./components/GoTop";
@@ -32,3 +32,7 @@ export default function App() {
     </div>
   );
 }
+
+// arreglar las imagenes
+// arreglar los alt="" y titulos de las imagenes
+// el title de los links tambien

@@ -51,7 +51,7 @@ const CompanyList = ({ scrollRef, company }) => {
         className="photo-header"
         onClick={() => setShowPhotos((prev) => !prev)}
       >
-        <span className="photo-header-name">{company.name}</span>
+        <h3 className="photo-header-name">{company.name}</h3>
         <div className="photo-header-line"></div>
         <div className="photo-header-icon-box">
           {showPhotos ? <FaChevronUp /> : <FaChevronDown />}

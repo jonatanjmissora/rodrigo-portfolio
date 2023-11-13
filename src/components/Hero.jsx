@@ -5,9 +5,9 @@ export const Hero = () => {
   let navigate = useNavigate();
   return (
     <article className="hero-container">
-      <span className="hero-name">Rodrigomphotos</span>
+      <h1 className="hero-name">Rodrigomphotos</h1>
       <div className="hero-half-left">
-        <span className="hero-subname">Fotografía Arquitectónica</span>
+        <h2 className="hero-subname">Fotografía Arquitectónica</h2>
         <button
           className="hero-contact-btn"
           onClick={() => navigate("/contact")}
