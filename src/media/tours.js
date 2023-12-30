@@ -1,3 +1,4 @@
+import casalipropdufaur6 from "../assets/photos/CasaliProp/dufaur/casaliprop6.webp";
 import casalipropsayhueque2 from "../assets/photos/CasaliProp/sayhueque660/casaliprop2.jpg";
 import casalipropbalboa1 from "../assets/photos/CasaliProp/balboa3347/casaliprop1.jpg";
 import casalipropmatheu5 from "../assets/photos/CasaliProp/matheu4376/casaliprop5.jpg";
@@ -21,41 +22,49 @@ export const CATEGORIES_TOURS = [
   //                        SALONES
   //////////////////////////////////////////////////////////////////////////
 
-    { name: "Salones",
-      tours: [
+  {
+    name: "Salones",
+    tours: [
       {
         name: "AlemEventos",
         adress: "",
         image: alem_eventos_works,
         src:
-        "https://www.keepeyeonball.com/Tour/45cd220d-41f4-44f8-aa26-c1a485a47f86"
+          "https://www.keepeyeonball.com/Tour/45cd220d-41f4-44f8-aa26-c1a485a47f86"
       },
       {
         name: "Top5",
         adress: "",
         image: top5,
         src:
-        "https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6/4K?sc=8&y=180&p=0&tz=100&r=0.00;0.00&l=0.00;0.00&mz=0.00&d=0&m=0"
-          //"https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6"
+          "https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6/4K?sc=8&y=180&p=0&tz=100&r=0.00;0.00&l=0.00;0.00&mz=0.00&d=0&m=0"
+        //"https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6"
       },
       {
         name: "Top6",
         adress: "",
         image: top6,
         src:
-        "https://www.keepeyeonball.com/Tour/3ec16edb-1db2-434a-9020-d8e55f04fb1f/4K?sc=8&y=180&p=0&tz=100&r=0.00;0.00&l=0.00;0.00&mz=0.00&d=0&m=0"
-          //"https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6"
+          "https://www.keepeyeonball.com/Tour/3ec16edb-1db2-434a-9020-d8e55f04fb1f/4K?sc=8&y=180&p=0&tz=100&r=0.00;0.00&l=0.00;0.00&mz=0.00&d=0&m=0"
+        //"https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6"
       },
     ]
   },
 
-////////////////////////////////////////////////////////////////////////////
-//                            PROPIEDADES
-////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////
+  //                            PROPIEDADES
+  ////////////////////////////////////////////////////////////////////////////
 
   {
     name: "Propiedades",
     tours: [
+      {
+        name: "Casali Propiedades",
+        adress: "Dufaur 572",
+        image: casalipropdufaur6,
+        src:
+          "https://kuula.co/share/collection/7XJmF?logo=1&info=1&fs=1&vr=0&zoom=1&gyro=0&autorotate=0.3&thumbs=1&alpha=0.60&inst=es"
+      },
       {
         name: "Casali Propiedades",
         adress: "Sayhueque 660",
@@ -94,9 +103,9 @@ export const CATEGORIES_TOURS = [
     ]
   },
 
-//////////////////////////////////////////////////////////////////////////
-//                          COMERCIOS
-//////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////
+  //                          COMERCIOS
+  //////////////////////////////////////////////////////////////////////////
 
   {
     name: "Comercios",
@@ -106,14 +115,14 @@ export const CATEGORIES_TOURS = [
         adress: "",
         image: moto_mania_works,
         src:
-        "https://www.keepeyeonball.com/Tour/f021accf-ad02-4b26-b2e1-2213c2dc6ffd/"
+          "https://www.keepeyeonball.com/Tour/f021accf-ad02-4b26-b2e1-2213c2dc6ffd/"
       },
       {
         name: "Dexter",
         adress: "",
         image: dexter,
         src:
-        "https://www.keepeyeonball.com/Tour/f0ebfa0d-a7ee-42ca-a954-c6bd24ef254a"
+          "https://www.keepeyeonball.com/Tour/f0ebfa0d-a7ee-42ca-a954-c6bd24ef254a"
       },
 
       {
@@ -155,20 +164,21 @@ export const CATEGORIES_TOURS = [
     ]
   },
 
-//////////////////////////////////////////////////////////////////////////
-//                        HOTELERIA
-//////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////
+  //                        HOTELERIA
+  //////////////////////////////////////////////////////////////////////////
 
-  { name: "Hotelería",
+  {
+    name: "Hotelería",
     tours: [
-    {
-      name: "HotelOrion",
-      adress: "",
-      image: hotel_orion_works,
-      src:
-      "https://www.keepeyeonball.com/Tour/7c4bc1e6-ae3d-449d-8da8-f86cbae58a42"
-    },
-  ]
+      {
+        name: "HotelOrion",
+        adress: "",
+        image: hotel_orion_works,
+        src:
+          "https://www.keepeyeonball.com/Tour/7c4bc1e6-ae3d-449d-8da8-f86cbae58a42"
+      },
+    ]
   },
-  
+
 ];

@@ -114,7 +114,7 @@ return (
 const PhotoElement = ({ photo, alt }) => {
   return (
     <div className="photo-img-box">
-      <img loading="lazy" className="photo-img" src={photo} alt={alt} width="200px" hight="150px"/>
+      <img loading="lazy" className="photo-img" src={photo} alt={alt} width="200px" height="150px"/>
     </div>
   );
 };

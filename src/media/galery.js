@@ -1,3 +1,12 @@
+
+import casalipropdufaur1 from "../assets/photos/CasaliProp/dufaur/casaliprop1.webp";
+import casalipropdufaur2 from "../assets/photos/CasaliProp/dufaur/casaliprop2.webp";
+import casalipropdufaur3 from "../assets/photos/CasaliProp/dufaur/casaliprop3.webp";
+import casalipropdufaur4 from "../assets/photos/CasaliProp/dufaur/casaliprop4.webp";
+import casalipropdufaur5 from "../assets/photos/CasaliProp/dufaur/casaliprop5.webp";
+import casalipropdufaur6 from "../assets/photos/CasaliProp/dufaur/casaliprop6.webp";
+import casalipropdufaur7 from "../assets/photos/CasaliProp/dufaur/casaliprop7.webp";
+
 import casalipropsayhueque1 from "../assets/photos/CasaliProp/sayhueque660/casaliprop1.jpg";
 import casalipropsayhueque2 from "../assets/photos/CasaliProp/sayhueque660/casaliprop2.jpg";
 import casalipropsayhueque3 from "../assets/photos/CasaliProp/sayhueque660/casaliprop3.jpg";
@@ -63,6 +72,23 @@ import minimal7 from "../assets/photos/Minimal/minimal7.jpg";
 import minimal8 from "../assets/photos/Minimal/minimal8.jpg";
 
 export const PHOTOS = [
+  {
+    name: "Casali Propiedades",
+    adress: "Dufaur 572",
+    tourRef:
+      "https://kuula.co/share/collection/7XJmF?logo=1&info=1&fs=1&vr=0&zoom=1&gyro=0&autorotate=0.3&thumbs=1&alpha=0.60&inst=es",
+    tourSrc:
+      "https://kuula.co/share/collection/7XJmF?logo=1&info=1&fs=1&vr=0&zoom=1&gyro=0&autorotate=0.3&thumbs=1&alpha=0.60&inst=es",
+    photos: [
+      casalipropdufaur1,
+      casalipropdufaur2,
+      casalipropdufaur3,
+      casalipropdufaur4,
+      casalipropdufaur5,
+      casalipropdufaur6,
+      casalipropdufaur7
+    ]
+  },
   {
     name: "Casali Propiedades",
     adress: "Sayhueque 660",
