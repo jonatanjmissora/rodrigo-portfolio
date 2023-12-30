@@ -1,3 +1,4 @@
+import bahiaconfortcaronti01 from "../assets/photos/BahiaConfort/caronti/bahiaconfort01.webp";
 import casalipropdufaur6 from "../assets/photos/CasaliProp/dufaur/casaliprop6.webp";
 import casalipropsayhueque2 from "../assets/photos/CasaliProp/sayhueque660/casaliprop2.jpg";
 import casalipropbalboa1 from "../assets/photos/CasaliProp/balboa3347/casaliprop1.jpg";
@@ -10,7 +11,7 @@ import top6 from "../assets/works/top6.png";
 import varoba from "../assets/works/varoba.jpg";
 import ragazzi from "../assets/works/ragazzi.jpg";
 import teknomania from "../assets/works/teknomania.jpg";
-import alba from "../assets/works/alba.jpg";
+import alba from "../assets/works/alba.svg";
 import atila from "../assets/works/atila.jpg";
 import hotel_orion_works from "../assets/works/hotel_orion_works.jpg";
 import moto_mania_works from "../assets/works/moto_mania_works.jpg";
@@ -58,6 +59,13 @@ export const CATEGORIES_TOURS = [
   {
     name: "Propiedades",
     tours: [
+      {
+        name: "Bahia Confort",
+        adress: "Caronti 190",
+        image: bahiaconfortcaronti01,
+        src:
+          "https://www.keepeyeonball.com/Tour/78240ece-c23f-41b8-87c1-86f565a31cb8"
+      },
       {
         name: "Casali Propiedades",
         adress: "Dufaur 572",

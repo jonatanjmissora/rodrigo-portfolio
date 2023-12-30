@@ -1,6 +1,6 @@
 import dexter from "../assets/works/dexter.png";
-import alba from "../assets/works/alba.jpg";
-import casali from "../assets/works/casali.jpg";
+import alba from "../assets/works/alba.svg";
+import casali from "../assets/works/casali.svg";
 import bahia_confort from "../assets/works/bahia_confort.svg"
 import iagro from "../assets/works/iagro.png";
 import ragazzi from "../assets/works/ragazzi.jpg";
@@ -16,7 +16,7 @@ import alem_eventos_works from "../assets/works/alem_eventos_works.jpg";
 export const WORKS_LINK = {
 
   /*  PHOTOS    */
-  BahiaConfort: "/photos",
+  Bahia: "/photos",
   Casali: "/photos",
   "I.A.G.R.O.": "/photos",
 
@@ -65,7 +65,7 @@ export const WORKS = [
   },
   {
     img: bahia_confort,
-    name: "BahiaConfort"
+    name: "Bahia"
   },
   {
     img: varoba,

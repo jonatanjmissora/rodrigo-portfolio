@@ -1,3 +1,14 @@
+import bahiaconfortcaronti01 from "../assets/photos/BahiaConfort/caronti/bahiaconfort01.webp";
+import bahiaconfortcaronti02 from "../assets/photos/BahiaConfort/caronti/bahiaconfort02.webp";
+import bahiaconfortcaronti03 from "../assets/photos/BahiaConfort/caronti/bahiaconfort03.webp";
+import bahiaconfortcaronti04 from "../assets/photos/BahiaConfort/caronti/bahiaconfort04.webp";
+import bahiaconfortcaronti05 from "../assets/photos/BahiaConfort/caronti/bahiaconfort05.webp";
+import bahiaconfortcaronti06 from "../assets/photos/BahiaConfort/caronti/bahiaconfort06.webp";
+import bahiaconfortcaronti07 from "../assets/photos/BahiaConfort/caronti/bahiaconfort07.webp";
+import bahiaconfortcaronti08 from "../assets/photos/BahiaConfort/caronti/bahiaconfort08.webp";
+import bahiaconfortcaronti09 from "../assets/photos/BahiaConfort/caronti/bahiaconfort09.webp";
+import bahiaconfortcaronti10 from "../assets/photos/BahiaConfort/caronti/bahiaconfort10.webp";
+import bahiaconfortcaronti11 from "../assets/photos/BahiaConfort/caronti/bahiaconfort11.webp";
 
 import casalipropdufaur1 from "../assets/photos/CasaliProp/dufaur/casaliprop1.webp";
 import casalipropdufaur2 from "../assets/photos/CasaliProp/dufaur/casaliprop2.webp";
@@ -72,6 +83,27 @@ import minimal7 from "../assets/photos/Minimal/minimal7.jpg";
 import minimal8 from "../assets/photos/Minimal/minimal8.jpg";
 
 export const PHOTOS = [
+  {
+    name: "Bahia Confort",
+    adress: "Caronti 190",
+    tourRef:
+      "https://www.keepeyeonball.com/Tour/78240ece-c23f-41b8-87c1-86f565a31cb8/4K?sc=7&y=180&p=66&tz=137&r=0;0&l=0;0&mz=0&d=0&m=0",
+    tourSrc:
+      "https://www.keepeyeonball.com/Tour/78240ece-c23f-41b8-87c1-86f565a31cb8",
+    photos: [
+      bahiaconfortcaronti01,
+      bahiaconfortcaronti02,
+      bahiaconfortcaronti03,
+      bahiaconfortcaronti04,
+      bahiaconfortcaronti05,
+      bahiaconfortcaronti06,
+      bahiaconfortcaronti07,
+      bahiaconfortcaronti08,
+      bahiaconfortcaronti09,
+      bahiaconfortcaronti10,
+      bahiaconfortcaronti11
+    ]
+  },
   {
     name: "Casali Propiedades",
     adress: "Dufaur 572",
