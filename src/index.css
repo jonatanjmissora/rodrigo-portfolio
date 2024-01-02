@@ -266,6 +266,13 @@ links li:active {
 /*=====================================================*/
 /*                HOME
 /*=====================================================*/
+@media (max-width: 600px) {
+  .principal {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
+
 /*=====================================================*/
 /*                HERO
 /*=====================================================*/
@@ -324,6 +331,11 @@ links li:active {
   bottom: 0;
   left: -1.5em;
   box-shadow: 0.2rem 0.2rem 0.33rem rgb(0, 0, 0, 0.5);
+  transition: background 0.3s ease;
+}
+
+.hero-contact-btn:hover {
+  background: blue;
 }
 
 .hero-header {
@@ -341,6 +353,53 @@ links li:active {
 
 .hero-img2-box {
   margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  .hero-container {
+    height: 40vh;
+    padding: 2rem 1rem;
+    margin: 10vh auto;
+  }
+
+  .hero-header {
+    padding-top: 1rem;
+  }
+
+  .hero-half-left,
+  .hero-half-right {
+    width: 50%;
+  }
+
+  .hero-half-right {
+    width: 65%;
+  }
+
+  .hero-name {
+    font-size: 10vw;
+    top: 39.5%;
+    left: 1.5rem;
+  }
+
+  .hero-subname {
+    font-size: 3.5vw;
+    left: 0.75rem;
+    font-weight: 500;
+    top: 60%;
+    width: 14ch;
+  }
+
+  .hero-contact-btn {
+    font-size: 3.25vw;
+    border-radius: 2rem;
+    left: 0.5rem;
+  }
+
+  .hero-title {
+    border-bottom: 1px solid;
+    font-size: 4.5vw;
+    padding-top: 0;
+  }
 }
 
 /*=====================================================*/
@@ -431,44 +490,6 @@ links li:active {
 }
 
 @media (max-width: 600px) {
-  .principal {
-    width: 100%;
-    margin-top: 1.5rem;
-  }
-
-  .hero-container {
-    height: 65vw;
-    padding: 2rem 1rem;
-    margin-top: 1.5rem;
-  }
-
-  .hero-header {
-    padding-top: 1rem;
-  }
-
-  .hero-name {
-    font-size: 8.75vw;
-    top: 38%;
-    left: 1.5rem;
-  }
-
-  .hero-subname {
-    font-size: 2.5vw;
-    left: 0.85rem;
-  }
-
-  .hero-contact-btn {
-    font-size: 3.25vw;
-    border-radius: 2rem;
-    left: 0.5rem;
-  }
-
-  .hero-title {
-    border-bottom: 1px solid;
-    font-size: 4.5vw;
-    padding-top: 0;
-  }
-
   .skills-container {
     display: block;
   }
@@ -549,6 +570,14 @@ links li:active {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.link-btn {
+  transition: background 0.3s ease;
+}
+
+.link-btn:hover {
+  background: blue;
 }
 
 @media (max-width: 600px) {
@@ -1028,6 +1057,7 @@ iframe {
 
 .video-box {
   margin: 0.5rem auto;
+  height: 350px;
 }
 
 
@@ -1118,7 +1148,7 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 7rem;
   gap: 1.5rem;
   height: 95vh;
 }
@@ -1148,6 +1178,12 @@ iframe {
 .social-icon {
   height: 2.5rem;
   width: 2.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: blue;
+  transform: scale(1.1);
 }
 
 .btn-container {

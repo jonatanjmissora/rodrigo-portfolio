@@ -105,7 +105,7 @@ export const PHOTOS = [
     ]
   },
   {
-    name: "Casali Propiedades",
+    name: "Casali Prop",
     adress: "Dufaur 572",
     tourRef:
       "https://kuula.co/share/collection/7XJmF?logo=1&info=1&fs=1&vr=0&zoom=1&gyro=0&autorotate=0.3&thumbs=1&alpha=0.60&inst=es",
@@ -122,7 +122,7 @@ export const PHOTOS = [
     ]
   },
   {
-    name: "Casali Propiedades",
+    name: "Casali Prop",
     adress: "Sayhueque 660",
     tourRef:
       "https://www.keepeyeonball.com/Tour/d5dc8dcf-cf4d-4bbf-99d1-c4f72b2dd875/4K?sc=7&y=180&p=66&tz=137&r=0;0&l=0;0&mz=0&d=0&m=0",
@@ -139,7 +139,7 @@ export const PHOTOS = [
     ]
   },
   {
-    name: "Casali Propropiedades",
+    name: "Casali Prop",
     adress: "Balboa 3347",
     tourRef:
       "https://www.keepeyeonball.com/Tour/d850794d-c703-427e-9707-5ce711bdf587/4K?sc=5&y=95&p=14&tz=108&r=0;0&l=0;0&mz=0&d=0&m=0",
@@ -156,7 +156,7 @@ export const PHOTOS = [
     ]
   },
   {
-    name: "Casali Propropiedades",
+    name: "Casali Prop",
     adress: "Matheu 4376",
     tourRef: "https://www.keepeyeonball.com/Tour/559ef560-2c52-4193-ac0b-d8ee46249b62/4K?sc=5&y=95&p=14&tz=108&r=0;0&l=0;0&mz=0&d=0&m=0",
     tourSrc: "https://www.keepeyeonball.com/Tour/559ef560-2c52-4193-ac0b-d8ee46249b62",
@@ -175,7 +175,7 @@ export const PHOTOS = [
     ]
   },
   {
-    name: "Casali Propropiedades",
+    name: "Casali Prop",
     adress: "Monte Hermoso",
     tourRef: "https://www.keepeyeonball.com/Tour/5a9f008e-d8c7-42af-812a-36ef16abc16d?logo=1&info=1&fs=1&vr=0&zoom=1&initload=0&autorotate=0.26&thumbs=1&margin=21&alpha=0.60&inst=es",
     tourSrc: "https://www.keepeyeonball.com/Tour/5a9f008e-d8c7-42af-812a-36ef16abc16d",

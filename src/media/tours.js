@@ -19,35 +19,27 @@ import alem_eventos_works from "../assets/works/alem_eventos_works.jpg";
 
 export const CATEGORIES_TOURS = [
 
+
   //////////////////////////////////////////////////////////////////////////
-  //                        SALONES
+  //                        HOTELERIA
   //////////////////////////////////////////////////////////////////////////
 
   {
-    name: "Salones",
+    name: "Apart Hotel",
     tours: [
       {
-        name: "AlemEventos",
-        adress: "",
-        image: alem_eventos_works,
+        name: "Bahia Confort",
+        adress: "Caronti 190",
+        image: bahiaconfortcaronti01,
         src:
-          "https://www.keepeyeonball.com/Tour/45cd220d-41f4-44f8-aa26-c1a485a47f86"
+          "https://www.keepeyeonball.com/Tour/78240ece-c23f-41b8-87c1-86f565a31cb8"
       },
       {
-        name: "Top5",
-        adress: "",
-        image: top5,
+        name: "HotelOrion",
+        adress: "España 227",
+        image: hotel_orion_works,
         src:
-          "https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6/4K?sc=8&y=180&p=0&tz=100&r=0.00;0.00&l=0.00;0.00&mz=0.00&d=0&m=0"
-        //"https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6"
-      },
-      {
-        name: "Top6",
-        adress: "",
-        image: top6,
-        src:
-          "https://www.keepeyeonball.com/Tour/3ec16edb-1db2-434a-9020-d8e55f04fb1f/4K?sc=8&y=180&p=0&tz=100&r=0.00;0.00&l=0.00;0.00&mz=0.00&d=0&m=0"
-        //"https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6"
+          "https://www.keepeyeonball.com/Tour/7c4bc1e6-ae3d-449d-8da8-f86cbae58a42"
       },
     ]
   },
@@ -59,13 +51,6 @@ export const CATEGORIES_TOURS = [
   {
     name: "Propiedades",
     tours: [
-      {
-        name: "Bahia Confort",
-        adress: "Caronti 190",
-        image: bahiaconfortcaronti01,
-        src:
-          "https://www.keepeyeonball.com/Tour/78240ece-c23f-41b8-87c1-86f565a31cb8"
-      },
       {
         name: "Casali Propiedades",
         adress: "Dufaur 572",
@@ -110,6 +95,40 @@ export const CATEGORIES_TOURS = [
       },
     ]
   },
+
+  //////////////////////////////////////////////////////////////////////////
+  //                        SALONES
+  //////////////////////////////////////////////////////////////////////////
+
+  {
+    name: "Salones",
+    tours: [
+      {
+        name: "AlemEventos",
+        adress: "",
+        image: alem_eventos_works,
+        src:
+          "https://www.keepeyeonball.com/Tour/45cd220d-41f4-44f8-aa26-c1a485a47f86"
+      },
+      {
+        name: "Top5",
+        adress: "",
+        image: top5,
+        src:
+          "https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6/4K?sc=8&y=180&p=0&tz=100&r=0.00;0.00&l=0.00;0.00&mz=0.00&d=0&m=0"
+        //"https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6"
+      },
+      {
+        name: "Top6",
+        adress: "",
+        image: top6,
+        src:
+          "https://www.keepeyeonball.com/Tour/3ec16edb-1db2-434a-9020-d8e55f04fb1f/4K?sc=8&y=180&p=0&tz=100&r=0.00;0.00&l=0.00;0.00&mz=0.00&d=0&m=0"
+        //"https://www.keepeyeonball.com/Tour/de891ac9-ac4a-4a6a-be79-9b561a6772d6"
+      },
+    ]
+  },
+
 
   //////////////////////////////////////////////////////////////////////////
   //                          COMERCIOS
@@ -172,21 +191,6 @@ export const CATEGORIES_TOURS = [
     ]
   },
 
-  //////////////////////////////////////////////////////////////////////////
-  //                        HOTELERIA
-  //////////////////////////////////////////////////////////////////////////
 
-  {
-    name: "Hotelería",
-    tours: [
-      {
-        name: "HotelOrion",
-        adress: "",
-        image: hotel_orion_works,
-        src:
-          "https://www.keepeyeonball.com/Tour/7c4bc1e6-ae3d-449d-8da8-f86cbae58a42"
-      },
-    ]
-  },
 
 ];
